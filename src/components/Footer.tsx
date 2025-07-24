@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   const services = [
     "Σχεδιασμός Ιατρικών Ιστοσελίδων",
-    "HIPAA-Compliant Portals",
+    "GDPR-Compliant Portals",
     "Online Κρατήσεις",
     "Medical SEO",
     "Telemedicine Setup",
@@ -31,7 +31,7 @@ const Footer = () => {
   ];
 
   const resources = [
-    { label: "HIPAA Compliance Guide", href: "#hipaa" },
+    { label: "GDPR Compliance Guide", href: "#gdpr" },
     { label: "Medical Website Checklist", href: "#checklist" },
     { label: "SEO για Γιατρούς", href: "#seo" },
     { label: "Case Studies", href: "#cases" },
@@ -58,7 +58,7 @@ const Footer = () => {
             
             <p className="text-background/80 text-sm leading-relaxed">
               Ειδικευόμαστε στη δημιουργία επαγγελματικών, 
-              HIPAA-compliant ιστοσελίδων για ιατρικές πρακτικές 
+              GDPR-compliant ιστοσελίδων για ιατρικές πρακτικές 
               που μετατρέπουν επισκέπτες σε ασθενείς.
             </p>
 
@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="flex gap-4">
               <div className="flex items-center gap-2 bg-background/10 rounded-lg px-3 py-2">
                 <Shield className="w-4 h-4 text-success" />
-                <span className="text-xs font-medium">HIPAA</span>
+                <span className="text-xs font-medium">GDPR</span>
               </div>
               <div className="flex items-center gap-2 bg-background/10 rounded-lg px-3 py-2">
                 <Award className="w-4 h-4 text-warning" />

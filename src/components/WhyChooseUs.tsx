@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
     {
       icon: Brain,
       title: "Εξειδίκευση στον Ιατρικό Κλάδο",
-      description: "Κατανοούμε τις απαιτήσεις συμμόρφωσης στον ιατρικό κλάδο και τις ανάγκες των ασθενών",
+      description: "Κατανοούμε τις απαιτήσεις συμμόρφωσης GDPR στον ιατρικό κλάδο και τις ανάγκες των ασθενών",
       gradient: "from-blue-500 to-blue-600"
     },
     {
@@ -25,8 +25,8 @@ const WhyChooseUs = () => {
     },
     {
       icon: Shield,
-      title: "HIPAA Συμμόρφωση",
-      description: "Όλες οι ιστοσελίδες δημιουργούνται με πρότυπα ασφαλείας healthcare",
+      title: "GDPR Συμμόρφωση",
+      description: "Όλες οι ιστοσελίδες δημιουργούνται με πρότυπα ασφαλείας healthcare και συμμόρφωση GDPR",
       gradient: "from-purple-500 to-purple-600"
     },
     {

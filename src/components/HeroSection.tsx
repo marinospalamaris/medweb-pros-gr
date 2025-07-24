@@ -16,7 +16,7 @@ const HeroSection = () => {
             <div className="space-y-2">
               <Badge variant="secondary" className="px-4 py-2">
                 <Shield className="w-4 h-4 mr-2" />
-                Συμμορφωμένα με HIPAA
+                Συμμόρφωση με GDPR & Ιατρικό Απόρρητο
               </Badge>
             </div>
             
@@ -30,8 +30,9 @@ const HeroSection = () => {
               </h1>
               
               <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">
-                Ειδικευόμαστε στη δημιουργία ιστοσελίδων συμμορφωμένων με τον HIPAA, 
-                φιλικών προς τα κινητά, που μετατρέπουν τους επισκέπτες σε ασθενείς
+                Ειδικευόμαστε στη δημιουργία ιστοσελίδων συμμορφωμένων με τον GDPR και 
+                την ελληνική νομοθεσία για το ιατρικό απόρρητο, φιλικών προς τα κινητά, 
+                που μετατρέπουν τους επισκέπτες σε ασθενείς
               </p>
             </div>
 

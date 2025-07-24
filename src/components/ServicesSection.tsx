@@ -24,8 +24,8 @@ const ServicesSection = () => {
     },
     {
       icon: Shield,
-      title: "HIPAA-Compliant Patient Portals",
-      description: "Ασφαλείς πύλες ασθενών με πλήρη συμμόρφωση προς τα πρότυπα HIPAA",
+      title: "GDPR-Compliant Patient Portals",
+      description: "Ασφαλείς πύλες ασθενών με πλήρη συμμόρφωση προς τον GDPR και την ελληνική νομοθεσία",
       features: ["Πλήρης Ασφάλεια", "Κρυπτογράφηση Δεδομένων", "24/7 Παρακολούθηση"],
       price: "Από €1.800",
       popular: true

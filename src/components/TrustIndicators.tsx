@@ -13,7 +13,7 @@ const TrustIndicators = () => {
     {
       icon: Shield,
       number: "100%",
-      label: "HIPAA Συμμόρφωση",
+      label: "GDPR Συμμόρφωση",
       description: "Όλες οι ιστοσελίδες μας"
     },
     {
@@ -43,7 +43,7 @@ const TrustIndicators = () => {
           <div className="flex justify-center gap-4 mb-8">
             <Badge variant="secondary" className="px-4 py-2">
               <Shield className="w-4 h-4 mr-2" />
-              HIPAA Συμμόρφωση
+              GDPR Συμμόρφωση
             </Badge>
             <Badge variant="secondary" className="px-4 py-2">
               <Award className="w-4 h-4 mr-2" />
