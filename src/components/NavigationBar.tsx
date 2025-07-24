@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Menu, X, Phone, Mail } from "lucide-react";
@@ -7,11 +8,11 @@ const NavigationBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "Αρχική", href: "#home" },
-    { label: "Υπηρεσίες", href: "#services" },
+    { label: "Αρχική", href: "/" },
+    { label: "Υπηρεσίες", href: "/#services" },
     { label: "Templates", href: "/templates" },
-    { label: "Διαδικασία", href: "#process" },
-    { label: "Επικοινωνία", href: "#contact" }
+    { label: "Διαδικασία", href: "/#process" },
+    { label: "Επικοινωνία", href: "/#contact" }
   ];
 
   return (
@@ -32,13 +33,23 @@ const NavigationBar = () => {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors story-link"
-              >
-                {item.label}
-              </a>
+              item.href.startsWith('/') ? (
+                <Link
+                  key={item.label}
+                  to={item.href}
+                  className="text-sm font-medium text-foreground hover:text-primary transition-colors story-link"
+                >
+                  {item.label}
+                </Link>
+              ) : (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="text-sm font-medium text-foreground hover:text-primary transition-colors story-link"
+                >
+                  {item.label}
+                </a>
+              )
             ))}
           </nav>
 
@@ -73,14 +84,25 @@ const NavigationBar = () => {
           <div className="lg:hidden border-t border-border bg-background shadow-medium">
             <nav className="py-4 space-y-4">
               {navItems.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="block px-4 py-2 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </a>
+                item.href.startsWith('/') ? (
+                  <Link
+                    key={item.label}
+                    to={item.href}
+                    className="block px-4 py-2 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={item.label}
+                    href={item.href}
+                    className="block px-4 py-2 text-sm font-medium text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                )
               ))}
               <div className="px-4 pt-4 border-t border-border">
                 <div className="space-y-2 text-sm text-muted-foreground mb-4">
