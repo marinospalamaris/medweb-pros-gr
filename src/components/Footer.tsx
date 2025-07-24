@@ -17,7 +17,6 @@ const Footer = () => {
     "GDPR-Compliant Portals",
     "Online Κρατήσεις",
     "Medical SEO",
-    "Telemedicine Setup",
     "Website Maintenance"
   ];
 

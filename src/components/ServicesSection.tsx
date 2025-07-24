@@ -47,14 +47,6 @@ const ServicesSection = () => {
       popular: false
     },
     {
-      icon: Video,
-      title: "Telemedicine Platform Setup",
-      description: "Πλήρης εγκατάσταση πλατφόρμας τηλεϊατρικής για απομακρυσμένες συμβουλές",
-      features: ["HD Video Calls", "Ασφαλείς Συνδέσεις", "Ψηφιακά Συνταγολόγια"],
-      price: "Από €3.200",
-      popular: false
-    },
-    {
       icon: Settings,
       title: "Website Maintenance & Security",
       description: "Συνεχής συντήρηση, ενημερώσεις ασφαλείας και τεχνική υποστήριξη",
