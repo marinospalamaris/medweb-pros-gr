@@ -9,7 +9,7 @@ const NavigationBar = () => {
   const navItems = [
     { label: "Αρχική", href: "#home" },
     { label: "Υπηρεσίες", href: "#services" },
-    { label: "Portfolio", href: "#portfolio" },
+    { label: "Templates", href: "/templates" },
     { label: "Διαδικασία", href: "#process" },
     { label: "Επικοινωνία", href: "#contact" }
   ];
