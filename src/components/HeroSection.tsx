@@ -22,11 +22,11 @@ const HeroSection = () => {
             
             <div className="space-y-6">
               <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
-                Όμορφες, Ιστοσελίδες Υψηλής{" "}
+                Πάρτε{" "}
                 <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  Μετατροπής
+                  3x Περισσότερους Ασθενείς
                 </span>{" "}
-                που Βοηθούν τις Ιατρικές Πρακτικές να Αναπτύσσονται
+                με Ιστοσελίδα που ΠΡΑΓΜΑΤΙΚΑ Δουλεύει
               </h1>
               
               <p className="text-lg lg:text-xl text-muted-foreground leading-relaxed">

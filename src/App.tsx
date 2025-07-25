@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 import Templates from "./pages/Templates";
 import GeneralPractice from "./pages/templates/GeneralPractice";
 import Dental from "./pages/templates/Dental";
+import Cardiology from "./pages/templates/Cardiology";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/templates" element={<Templates />} />
           <Route path="/template/general-practice" element={<GeneralPractice />} />
           <Route path="/template/dental" element={<Dental />} />
+          <Route path="/template/cardiology" element={<Cardiology />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

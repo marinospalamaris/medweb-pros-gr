@@ -32,6 +32,22 @@ const Templates = () => {
       route: "/template/general-practice"
     },
     {
+      id: "cardiology",
+      title: "Καρδιολογία",
+      specialty: "Καρδιολόγος",
+      icon: Heart,
+      image: "/api/placeholder/600/400",
+      description: "Ειδικά σχεδιασμένο για καρδιολόγους με έμφαση στην εμπιστοσύνη",
+      features: [
+        "Καρδιολογικός Έλεγχος",
+        "Holter Monitoring",
+        "Επείγουσα Επικοινωνία",
+        "Συμβουλές Υγείας"
+      ],
+      color: "from-red-500 to-red-600",
+      route: "/template/cardiology"
+    },
+    {
       id: "dental",
       title: "Οδοντιατρική",
       specialty: "Οδοντίατρος",
@@ -46,22 +62,6 @@ const Templates = () => {
       ],
       color: "from-green-500 to-green-600",
       route: "/template/dental"
-    },
-    {
-      id: "cardiology",
-      title: "Καρδιολογία",
-      specialty: "Καρδιολόγος",
-      icon: Heart,
-      image: "/api/placeholder/600/400",
-      description: "Εξειδικευμένο template για καρδιολόγους με ενσωμάτωση EKG αποτελεσμάτων",
-      features: [
-        "EKG Viewer",
-        "Καρδιολογικές Εξετάσεις",
-        "Risk Calculator",
-        "Διατροφικές Οδηγίες"
-      ],
-      color: "from-red-500 to-red-600",
-      route: "/template/cardiology"
     },
     {
       id: "neurology",

@@ -3,11 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { 
   Globe, 
-  Shield, 
+  MessageSquare, 
   Calendar, 
-  Search, 
-  Video, 
-  Settings,
   CheckCircle,
   ArrowRight
 } from "lucide-react";
@@ -16,42 +13,50 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Globe,
-      title: "Προσαρμοσμένος Σχεδιασμός Ιατρικών Ιστοσελίδων",
-      description: "Δημιουργούμε μοναδικές, επαγγελματικές ιστοσελίδες που αντικατοπτρίζουν την ειδικότητά σας",
-      features: ["Responsive Design", "Γρήγορη Φόρτωση", "SEO Optimized"],
-      price: "Από €2.500",
+      title: "Essential Package",
+      description: "Βασική ιστοσελίδα με chat και κρατήσεις",
+      features: [
+        "Responsive Ιστοσελίδα", 
+        "Live Chat System", 
+        "Basic Online Κρατήσεις", 
+        "GDPR Compliance", 
+        "SSL Ασφάλεια", 
+        "Mobile Optimization"
+      ],
+      price: "€750",
       popular: false
     },
     {
-      icon: Shield,
-      title: "GDPR-Compliant Patient Portals",
-      description: "Ασφαλείς πύλες ασθενών με πλήρη συμμόρφωση προς τον GDPR και την ελληνική νομοθεσία",
-      features: ["Πλήρης Ασφάλεια", "Κρυπτογράφηση Δεδομένων", "24/7 Παρακολούθηση"],
-      price: "Από €1.800",
+      icon: MessageSquare,
+      title: "Professional Package",
+      description: "Προχωρημένες λειτουργίες για αύξηση ασθενών",
+      features: [
+        "Premium Ιστοσελίδα Design", 
+        "Advanced Chat με AI", 
+        "Smart Booking System", 
+        "SEO Optimization", 
+        "WhatsApp Integration", 
+        "Analytics Dashboard", 
+        "Email Marketing"
+      ],
+      price: "€1,200",
       popular: true
     },
     {
       icon: Calendar,
-      title: "Online Appointment Scheduling",
-      description: "Ενσωμάτωση συστημάτων κράτησης ραντεβού για εύκολη διαχείριση",
-      features: ["Αυτόματες Υπενθυμίσεις", "Sync με Ημερολόγιο", "Mobile App"],
-      price: "Από €800",
-      popular: false
-    },
-    {
-      icon: Search,
-      title: "Medical SEO & Local Search",
-      description: "Βελτιστοποίηση για τοπικές αναζητήσεις και υψηλότερη προβολή",
-      features: ["Local SEO", "Google My Business", "Keyword Optimization"],
-      price: "Από €600/μήνα",
-      popular: false
-    },
-    {
-      icon: Settings,
-      title: "Website Maintenance & Security",
-      description: "Συνεχής συντήρηση, ενημερώσεις ασφαλείας και τεχνική υποστήριξη",
-      features: ["24/7 Monitoring", "Regular Backups", "Security Updates"],
-      price: "Από €200/μήνα",
+      title: "Premium Package",
+      description: "Πλήρης λύση για μέγιστη απόδοση",
+      features: [
+        "Custom Design & Branding", 
+        "AI-Powered Chat Assistant", 
+        "Advanced Booking με Reminders", 
+        "Multi-location Support", 
+        "Patient Portal", 
+        "Social Media Management", 
+        "Monthly Performance Reports", 
+        "Priority Support"
+      ],
+      price: "€1,500",
       popular: false
     }
   ];
